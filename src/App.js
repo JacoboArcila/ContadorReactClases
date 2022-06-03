@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Contador from './components/Contador';
+import { createGlobalStyle } from 'styled-components'
 
 function App() {
+
+  const GlobalStyle = createGlobalStyle`
+    body {
+      background-image: linear-gradient(135deg, #fcfeff 0, #daecf6 25%, #b7d9ee 50%, #94c5e6 75%, #73b3e0 100%); 
+      ${'' /* display: flex;
+      justify-content: center;
+      align-items: center; */}
+    }
+  `
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GlobalStyle whiteColor />
+      <Contador />
     </div>
   );
 }
