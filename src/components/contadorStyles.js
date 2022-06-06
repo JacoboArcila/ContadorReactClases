@@ -3,44 +3,42 @@ import styled from 'styled-components';
 export const Container = styled.div `
     font-size: 200px;
     display: relative;
-    height: 100%;
 `
 
 export const Button = styled.button `
-    border: 1px solid black;
+    background-color: rgba(0, 0, 0);
+    border: none;
+    color: white;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 45%;
     width: 150px;
     height: 150px;
     font-size: 100px;
-    display: absolute;
-    top: 1.6em;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    margin: 0 200px;
 
     &:hover {
         cursor: pointer;
         transition: 0.2s;
-        background-color: green;
+        background-color: #2C2E2D;
     }
 `
 
 export const ContainerButton = styled.div`
     position: absolute;
-    top: 1.6em;
+    top: 1.8em;
     left: 0;
     right: 0;
     margin: 0 auto;
 `
 
 export const Count = styled.div `
-    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
     padding: 1.22em;
-    background-color: none;
-    border-radius: 50%;
-    width: 200px;
-    height: 180px;
-    margin-left: 27%;
+    border-radius: 45%;
+    width: 170px;
+    height: 170px;
+    line-height: 200px;
+    margin: 6px auto;
 `
 
