@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ContadorReactClases/static/css/main.073c9b0a.css",
+    "main.js": "/ContadorReactClases/static/js/main.d8a04ff1.js",
+    "index.html": "/ContadorReactClases/index.html",
+    "main.073c9b0a.css.map": "/ContadorReactClases/static/css/main.073c9b0a.css.map",
+    "main.d8a04ff1.js.map": "/ContadorReactClases/static/js/main.d8a04ff1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.d8a04ff1.js"
+  ]
+}
